@@ -1,0 +1,85 @@
+div.heading{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(10vw);
+    height: calc(10vh);
+    width: calc(60vw);
+    border: 3px solid black;
+    font-size: 60px;
+    justify-content: center;
+    border-radius: 100px 20px 50px 20px;
+    background-color: red;
+    color: green;
+    text-shadow: 3px 3px blue;
+}
+div.legall{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(13vw);
+    height: calc(50vh);
+    width: calc(25vw);
+    /* border: 0px 2px 2px 2px solid black; */
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+div.illegall{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(40vw);
+    height: calc(50vh);
+    width: calc(25vw);
+    /* border: 0px 2px 2px 2px solid black; */
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+}
+div.hd{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(2vw);
+    height: calc(5vh);
+    width: calc(20vw);
+    color: rgb(0, 117, 29);
+    text-shadow: 2px 2px skyblue;
+    font-size: 30px;
+}
+div.variables{
+    display: flex;
+    position: absolute;
+    top: calc(6vh);
+    left: calc(2vw);
+    height: calc(40vh);
+    width: calc(20vw);
+    /* border: 1px solid black; */
+    font-size: 25px;
+}
+li{
+    list-style-type: lower-alpha;
+}
+div.note{
+    display: flex;
+    position: absolute;
+    top: calc(73vh);
+    left: calc(10vw);
+    height: calc(10vh);
+    width: calc(80vw);
+    /* background-color: red; */
+    text-align: center;
+    font-size: 20px;
+    text-indent: 20px;
+    /* justify-content: center;
+    align-content: center; */
+}
+span.note{
+    font-size: 30px;
+    color: red;
+}
+span.cc{
+    margin-top: 5px;
+    text-shadow: 1px 1px solid skyblue;
+}

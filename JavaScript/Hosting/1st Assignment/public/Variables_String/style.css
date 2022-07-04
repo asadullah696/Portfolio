@@ -1,0 +1,14 @@
+div.variable{
+    display: flex;
+    position: absolute;
+    top: 35vh;
+    left: 3vw;
+    height: 30vh;
+    width: 94vw;
+    font-size: 900%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    text-shadow: 10px 10px black;
+    background-color: red;
+    border-radius: 200px 50px 300px 100px;
+}

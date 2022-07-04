@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date_Method</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+    <div class="containertime">     
+        <div class="quotes">
+            
+            <!-- <h2>Digital Clock</h2> -->
+        </div>
+        <div class="time">
+            <h1 id="current-time"></h1>
+            <div>
+                <h3 id="day"></h3>
+                <h3 id="day2"></h3>
+                <h3 id="day3"></h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="heading">
+            Math & Date Method
+        </div>
+        <div class="positiveintegerheading">
+            Positive Integar
+        </div>
+        <div class="positiveinteger">
+            <div class="functioninput">
+                <input type="\" name="" id="positiveinteger" placeholder="Enter a number to get Values,">
+            </div>
+            <div class="functioninputbtn">
+                <button id="positiveintegerbtn" onClick="positiveinteger()">Get</button>
+            </div>
+            <div class="1st one">
+                <span class="onehd hd">Number</span>
+                <span class="onevalue value" id="pi1"></span>
+            </div>
+            <div class="2nd two">
+                <span class="twohd hd">Round Off Value</span>
+                <span class="twovalue value" id="pi2"></span>
+            </div>
+            <div class="3rd three">
+                <span class="threehd hd">Floor Value</span>
+                <span class="threevalue value" id="pi3"></span>
+            </div>
+            <div class="4th four">
+                <span class="fourhd hd">Ceil Value</span>
+                <span class="fourvalue value" id="pi4"></span>
+            </div>
+        </div>
+        <div class="negativeintegerheading">
+            Negative Integar
+        </div>
+        <div class="negativeinteger">
+            <div class="functioninput">
+                <input type="\" name="" id="negativeinteger" placeholder="Enter a number to get Values,">
+            </div>
+            <div class="functioninputbtn">
+                <button id="negativeintegerbtn" onClick="negativeinteger()">Get</button>
+            </div>
+            <div class="1st one">
+                <span class="onehd hd">Number</span>
+                <span class="onevalue value" id="ni1"></span>
+            </div>
+            <div class="2nd two">
+                <span class="twohd hd">Round Off Value</span>
+                <span class="twovalue value" id="ni2"></span>
+            </div>
+            <div class="3rd three">
+                <span class="threehd hd">Floor Value</span>
+                <span class="threevalue value" id="ni3"></span>
+            </div>
+            <div class="4th four">
+                <span class="fourhd hd">Ceil Value</span>
+                <span class="fourvalue value" id="ni4"></span>
+            </div>
+        </div>
+        <div class="positivefloatingpointheading">
+            Positive Floating Point
+        </div>
+        <div class="positivefloatingpoint">
+            <div class="functioninput">
+                <input type="\" name="" id="positivefloating" placeholder="Enter a number to get Values,">
+            </div>
+            <div class="functioninputbtn">
+                <button id="positivefloatingbtn" onClick="positivefloating()">Get</button>
+            </div>
+            <div class="1st one">
+                <span class="onehd hd">Number</span>
+                <span class="onevalue value" id="pfp1"></span>
+            </div>
+            <div class="2nd two">
+                <span class="twohd hd">Round Off Value</span>
+                <span class="twovalue value" id="pfp2"></span>
+            </div>
+            <div class="3rd three">
+                <span class="threehd hd">Floor Value</span>
+                <span class="threevalue value" id="pfp3"></span>
+            </div>
+            <div class="4th four">
+                <span class="fourhd hd">Ceil Value</span>
+                <span class="fourvalue value" id="pfp4"></span>
+            </div>
+        </div>
+        <div class="negativefloatingpointheading">
+            Negative Floating Point
+        </div>
+        <div class="negativefloatingpoint">
+            <div class="functioninput">
+                <input type="\" name="" id="negativefloating" placeholder="Enter a number to get Values,">
+            </div>
+            <div class="functioninputbtn">
+                <button id="negativefloatingbtn" onClick="negativefloating()">Get</button>
+            </div>
+            <div class="1st one">
+                <span class="onehd hd">Number</span>
+                <span class="onevalue value" id="nfp1" ></span>
+            </div>
+            <div class="2nd two">
+                <span class="twohd hd">Round Off Value</span>
+                <span class="twovalue value" id="nfp2"></span>
+            </div>
+            <div class="3rd three">
+                <span class="threehd hd">Floor Value</span>
+                <span class="threevalue value" id="nfp3"></span>
+            </div>
+            <div class="4th four">
+                <span class="fourhd hd">Ceil Value</span>
+                <span class="fourvalue value" id="nfp4"></span>
+            </div>
+            
+        </div>
+        <div class="absolutevalueheading">
+            Absolute Value
+        </div>
+        <div class="absolutevalue">
+            <div class="avinput">
+                <input type="text" name="" id="avinput" placeholder="Enter an number to get absolute,">
+            </div>
+            <div class="avinputbtn">
+                <button id="avinputbtn" onClick="absolutevalue()">Get Absolute</button>
+            </div>
+            <div class="avuip">Your number is <span id="unfav">   </span>. <br /></div>
+             <div class="avuipr"> The absolute value of number  <span id="unfav">  </span> is 
+            <span id="unfavr">  </span>. </div>
+        </div>
+        <div class="randomdicevalueheading">
+            Random Dice Value
+        </div>
+             <div class="randomdicevalue">
+                <!-- <div class="input">
+                    <input type="text" name="" id="">
+                </div> -->
+                <div class="dice" id="dice">
+                    
+                </div>
+                <div class="generate" id="generate">
+                    <button onClick="dice()">Generate</button>
+                </div>
+              </div>
+        <div class="tossheading">
+            Toss
+        </div>
+                <div class="toss">
+                    <div class="headtail" id="toss">
+                        
+                    </div>
+                    <div class="generate" id="tossbtn">
+                        <button onClick="toss()">Generate</button>
+                    </div>
+                  </div>
+
+                  <div class="onetohundredheading">
+                    Random Number 1-100
+                </div>
+                        <div class="onetohundred">
+                            <div class="onetohundredbox" id="onetohundred">
+                                
+                            </div>
+                            <div class="generate" id="onetohundredbtn">
+                                <button onClick="onetohundred()">Generate</button>
+                            </div>
+                          </div>
+                <div class="userweightheading">
+                    Get Your Weight
+                </div>
+                <div class="usergetweight">
+                    <div class="userweightinput">
+                        <input type="text" id="userweight" placeholder="Enter Your Weight here, In Kilograms,">
+                    </div>
+                    <div class="onetohundredbox2" id="onetohundred">
+                           <div class="mainweight" id="mainweight">
+
+                           </div>
+                           <div class="pound" id="poundweight">
+
+                           </div>
+                           <div class="gram" id="gramweight">
+
+                           </div>
+                           <div class="miligram" id="milligramweight">
+
+                           </div>
+                    </div>
+                    <div class="userweightbtn" id="userweightbtn">
+                        <button onClick="userweight()">Get</button>
+
+                    </div>
+                </div>
+                <div class="gameheading">
+                    Random Game
+                </div>
+                <div class="game">
+                    <div class="gameinput">
+                        <input id="gameinput" type="text" placeholder="Write any digit to play game">
+                    </div>
+                    <div class="gamebtn">
+                        <button onClick="game()">Check Integer</button>
+                    </div>
+                    <div class="gameresult" id="gameresult">
+
+                    </div>
+                    <div class="gamedata" id="gamedata">
+
+                    </div>
+                </div>
+                <div class="currentdateheading">
+                    Current Date
+                </div>
+                <div class="currentdate">
+                    <div class="currentdatebrowse" id="currentdate2">
+
+                    </div>
+                    <div class="gettingdate" id="gettingdate">
+
+                    </div>
+                </div>
+                <div class="currentdayheading">
+                    Current Month
+                </div>
+                <div class="currentday">
+                    <div class="currentdaybrowse" id="currentday2">
+                        
+                    </div>
+                    <div class="gettingday" id="gettingday">
+
+                    </div>
+                </div>
+                <div class="currentmonthheading">
+                    Current Day
+                </div>
+                <div class="currentmonth">
+                    <div class="currentmonthbrowse" id="currentmonth2">
+                        
+                    </div>
+                    <div class="gettingmonth" id="gettingmonth">
+
+                    </div>
+                </div>
+                <div class="ageheading">
+                    Age Calculator
+                </div>
+                <div class="age">
+                    <div class="ageinput">
+                        <input id="ageinput" type="text" placeholder="Enter you Birth years,">
+                    </div>
+                    <div class="agebtn">
+                        <button onClick="age()">Check Integer</button>
+                    </div>
+                    <div class="ageresult" id="ageresult">
+
+                    </div>
+                    <div class="ageresult2" id="ageresult2">
+
+                    </div>
+                    <div class="agedata" id="agedata">
+
+                    </div>
+                </div>
+                <div class="billheading">
+                    Electric Bill Calculator
+                </div>
+                <div class="bill">
+                    <div class="billinput">
+                        <input type="text" id="nameinput" placeholder="Enter your name here,">
+                    </div>
+                    <div class="unitinput">
+                        <input type="text" id="unitinput" placeholder="Enter your units here.">
+                    </div>
+                    <div class="billbtn" >
+                        <button onClick="bill()">Check Bill</button>
+                    </div>
+                    <div class="charges" id="charges">
+
+                    </div>
+                    <div class="billdata" id="billdata">
+
+                    </div>
+                </div>
+
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

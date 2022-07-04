@@ -1,0 +1,117 @@
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.flex-container {
+    display: grid;
+    grid-template-columns: 80% 80%;
+    /*Been messing with how to display the projects together, with grid I can display side by side but they don't line up properly */
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-container {
+    display: flex;
+    flex-flow: column;
+    padding: 30px 0px;
+    margin: 15px 0px;
+}
+
+#projects img {
+    margin: 30px 0px;
+    border: 6px solid;
+    border-color: #00356b;
+}
+
+#projects h2 {
+    font-size: 18px;
+}
+
+#projects p {
+    padding: 20px 0px;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+/*Hover info class goes here*/
+
+#projects li {
+    padding: 30px 20px;
+}
+
+/* Contact */
+
+#contact h2 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+#contact img {
+    padding: 50px 30px 0px;
+}
+
+#contact a {
+    color: white;
+}
+li {
+    display: inline;
+}
+
+li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #dddddd;
+    background: rgb(0, 53, 107);
+}
+
+li a:hover {
+    background: rgb(0, 18, 44);
+    background: linear-gradient(0deg, rgb(106, 106, 107) 0%, rgb(255, 255, 255) 100%);
+    color: rgb(0, 53, 107);
+    border: solid rgb(124, 124, 133);
+}
+
+hr {
+    border-top: 8px solid #00356b;
+    border-radius: 5px;
+}
+.default {
+    text-align: center;
+    padding: 10% 20%;
+    background-color: #d9d9d9;
+    color: #00356b;
+    text-shadow: .3px .3px .3px #002244;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media (max-width: 725px) {
+    #topNav li {
+        display: grid;
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+    #topNav {
+        padding: 0px 2px;
+    }
+}

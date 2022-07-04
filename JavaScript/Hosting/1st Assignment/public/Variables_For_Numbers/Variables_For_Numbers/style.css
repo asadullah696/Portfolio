@@ -1,0 +1,14 @@
+div.nv{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(10vw);
+    width: calc(80vw);
+    height: calc(30vh);
+    border: 5px solid black;
+    font-size: 140px;
+    color: skyblue;
+    text-shadow: 10px 10px red;
+    background-color: blue;
+    border-radius: 100px 50px 300px 50px;
+}

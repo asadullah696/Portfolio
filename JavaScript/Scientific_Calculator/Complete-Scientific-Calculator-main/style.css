@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&family=Orbitron:wght@600&display=swap');
+body{
+    background-color: rgba(70, 70, 177, 0.849);
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.container{
+    display: inline-block;
+    background-color: rgb(15, 15, 15);
+    border-radius: 10px;
+}
+.first table tr td{
+    background: white;
+    width: 555px;
+    height: 48px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+.second table tr td button{
+    width: 136px;
+    height: 54px;
+    font-size: 35px;
+    font-family: 'Orbitron', sans-serif;
+}
+.third table tr td button{
+    font-weight: bolder;
+    font-size: 30px;
+    width: 555px;
+    height: 40px;
+}
+.type1 button{
+    background-color: darkgray;
+    color: rgb(3, 3, 3);
+}
+.type2 button{
+    background-color: rgb(72, 120, 175);
+    color: rgb(3, 3, 3);
+}
+.type3 button{
+    background-color: rgba(72, 87, 155, 0.856);
+    color: rgb(245, 241, 241);
+}
+.type4 button{
+    background-color: rgb(211, 58, 58);
+    color: rgb(3, 3, 3);
+}
+.type5 button{
+    background-color: antiquewhite;
+}
+.type1 button,.type2 button,.type3 button,.type4 button,.type5 button:hover{
+    cursor: pointer;
+
+}
+.type1 button:active{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.type2 button:active{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.type3 button:active{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.type4 button:active{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+.type5 button:active{
+    background-color: darkgrey;
+    color: aliceblue;
+}
+@media screen and (max-width:750px){
+    .first table tr td{
+        background: white;
+        width: 315px;
+        height: 48px;
+        border-radius: 5px;
+        position: relative;
+        top: 40px;
+        font-size: 20px;
+    }
+    .second table tr td button{
+        width: 76px;
+        height: 45px;
+        position: relative;
+        top: 40px;
+        font-size: 25px;
+    }
+    .third table tr td button{
+        font-weight: bolder;
+        font-size: 30px;
+        width: 315px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+    .container{
+        height: 560px;
+        display: inline-block;
+        background-color: rgb(15, 15, 15);
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+        overflow-x: hidden;
+        margin-top: 20px;
+        
+
+    }
+    
+}
+@media screen and (max-width:1050px) and (min-width:751px){
+    .first table tr td{
+        background: white;
+        width: 740px;
+        height: 78px;
+        border-radius: 5px;
+        position: relative;
+        top: 40px;
+        font-size: 20px;
+    }
+    .second table tr td button{
+        width: 183px;
+        height: 78px;
+        position: relative;
+        top: 40px;
+        font-size: 45px;
+    }
+    .third table tr td button{
+        font-weight: bolder;
+        font-size: 30px;
+        width: 740px;
+        height: 60px;
+        position: relative;
+        top: 40px;
+    }
+    .container{
+        width: 750px;
+        height: 860px;
+        display: inline-block;
+        background-color: rgb(15, 15, 15);
+        border-radius: 10px;
+        font-size: 30px;
+        font-weight: bolder;
+        overflow-x: hidden;
+        margin-top: 20px;
+        
+
+    }
+    
+}
+
+

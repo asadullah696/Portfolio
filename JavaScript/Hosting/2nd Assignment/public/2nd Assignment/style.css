@@ -1,0 +1,12 @@
+div{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(10vw);
+    height: calc(40vh);
+    width: calc(80vw);
+    font-size: 165px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    text-shadow: 5px 5px chartreuse;
+}

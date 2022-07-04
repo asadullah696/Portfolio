@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+    <div class="calculator">
+        <div class="container">
+            <div class="first">
+                <table>
+                    <tr>
+                        <td id="screen"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="second">
+                <table>
+
+                    <tr>
+                        <td class="type2"><button onClick="sinFn()">sin</button></td>
+                        <td class="type2"><button onClick="cosFn()">cos</button></td>
+                        <td class="type2"><button onClick="tanFn()">tan</button></td>
+                        <td class="type4"><button onClick="clearScreen()">C</button></td>
+                    </tr>
+                    <tr>
+                        <td class="type2"><button onClick="cosecFn()">cosec</button></td>
+                        <td class="type2"><button onClick="secFn()">sec</button></td>
+                        <td class="type2"><button onClick="cotFn()">cot</button></td>
+                        <td class="type2"><button onClick="absfn()">abs</button></td>
+                    </tr>
+                    <tr>    
+                        <td class="type2"><button onClick="povSquare()">x<sup>2</sup></button></td>
+                        <td class="type2"><button onClick="povCube()">x<sup>3</sup></button></td>
+                        <td class="type2"><button onClick="squareRoot()">&radic;</button></td>
+                        <td class="type2"><button onClick="cubeRoot()">&#x221B;</button></td>
+                    </tr>
+                    <tr>
+                        <td class="type2"><button onClick="logFn()">log</button></td>
+                        <td class="type2"><button onClick="uponFn()">1/x</button></td>
+                        <td class="type2"><button onClick="sinhFn()">sinh</button></td>
+                        <td class="type2"><button onClick="coshfn()">cosh</button></td>
+                    </tr>
+                    <tr>
+                        <td class="type3"><button onClick="getValue1()">1</button></td>
+                        <td class="type3"><button onClick="getValue2()">2</button></td>
+                        <td class="type3"><button onClick="getValue3()">3</button></td>
+                        <td class="type1"><button onClick="getValuePlus()">+</button></td>
+                    </tr>
+                    <tr>
+                        <td class="type3"><button onClick="getValue4()">4</button></td>
+                        <td class="type3"><button onClick="getValue5()">5</button></td>
+                        <td class="type3"><button onClick="getValue6()">6</button></td>
+                        <td class="type1"><button onClick="getValueMinus()">-</button></td>
+                    </tr>
+                    <tr>
+                        <td class="type3"><button onClick="getValue7()">7</button></td>
+                        <td class="type3"><button onClick="getValue8()">8</button></td>
+                        <td class="type3"><button onClick="getValue9()">9</button></td>
+                        <td class="type1"><button onClick="getValueDivide()">/</button></td>
+                    </tr>   
+                    <tr>
+                        <td class="type3"><button onClick="getValuePoint()">.</button></td>
+                        <td class="type3"><button onClick="getValue0()">0</button></td>
+                        <td class="type1"><button onClick="getValueMultiply()">*</button></td>
+                        <td class="type1"><button onClick="getValuePercent()">%</button></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="third">
+                <table>
+                    <tr>
+                        <td class="type5"><button onClick="getValueEquals()">=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+    </div>
+<script src="./app.js"></script>
+
+</body>
+
+</html>

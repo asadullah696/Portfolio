@@ -1,0 +1,1133 @@
+body{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1000px;
+    width: 100000px;
+    background-color: lightblue;
+}
+.containertime {
+    width: 400px;
+    height: 200px;
+    background: rgb(21, 21, 37);
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.time h1 {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    height: 100px;
+    width: 200px;
+    transform: translate(-50%, -50%);
+    color: #eee;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    padding: 50px;
+    border-radius: 12px;
+    background: rgb(21, 21, 37);
+    box-shadow: 10px 0px 95px blue,  -10px 0px 95px rgb(247, 43, 16);
+    background: -webkit-linear-gradient(55deg, rgb(250, 86, 64), rgb(102, 102, 255) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.time #day {
+    position: absolute;
+    bottom: 10px;
+    left: 125px;
+    color: rgba(199, 55, 175, 0.9);
+    font-size: 20px;
+    padding: 10px;
+}
+.time #day2 {
+    position: absolute;
+    bottom: 10px;
+    left: 175px;
+    color: rgba(199, 55, 175, 0.9);
+    font-size: 20px;
+    padding: 10px;
+}
+.time #day3 {
+    position: absolute;
+    bottom: 10px;
+    left: 100px;
+    color: rgba(199, 55, 175, 0.9);
+    font-size: 20px;
+    padding: 10px;
+}
+.quotes {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 110px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500px;
+}
+.quotes h2 {
+    font-size: 50px;
+    margin-top: 15px;
+    padding-top: 0px;
+    font-weight: 500px;
+    color: darkred;
+}
+div.container{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 700px;
+    height: 4550px;
+    background-color: rgb(0, 0, 0);
+}
+div.heading{
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    height: 78px;
+    width: 700px;
+    line-height: 70px;
+    background-color: rgb(0, 0, 0);
+    font-size: 80px;
+    color: red;
+    text-shadow: 3px 3px blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.positiveintegerheading{
+    display: flex;
+    position: absolute;
+    top: 85px;
+    left: 100px;
+    width: 500px;
+    height: 57px;
+    background-color: yellow;
+    font-size: 50px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.positiveinteger{
+    display: flex;
+    position: absolute;
+    top: 145px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.negativeintegerheading{
+    display: flex;
+    position: absolute;
+    top: 400px;
+    left: 100px;
+    width: 500px;
+    height: 57px;
+    background-color: yellow;
+    font-size: 50px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.negativeinteger{
+    display: flex;
+    position: absolute;
+    top: 460px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.positivefloatingpointheading{
+    display: flex;
+    position: absolute;
+    top: 715px;
+    left: 100px;
+    width: 500px;
+    height: 57px;
+    background-color: yellow;
+    font-size: 30px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.positivefloatingpoint{
+    display: flex;
+    position: absolute;
+    top: 775px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.negativefloatingpointheading{
+    display: flex;
+    position: absolute;
+    top: 1030px;
+    left: 100px;
+    width: 500px;
+    height: 57px;
+    background-color: yellow;
+    font-size: 30px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.negativefloatingpoint{
+    display: flex;
+    position: absolute;
+    top: 1090px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.functioninput{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 300px;
+    background-color: gray;
+}
+div.functioninputbtn{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 310px;
+    height: 40px;
+    width: 140px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    text-shadow: 2px 2px black;
+    border-radius: 0px 5px 5px 0px;
+}
+div.one{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    height: 50px;
+    width: 440px;
+    background-color: aqua;
+}
+div.two{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    height: 50px;
+    width: 440px;
+    background-color: aqua;
+}
+div.three{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    height: 50px;
+    width: 440px;
+    background-color: aqua;
+}
+div.four{
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 10px;
+    height: 50px;
+    width: 440px;
+    background-color: aqua;
+}
+span.hd{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: inherit;
+    width: 220px;
+    background-color: rgb(125, 225, 255);
+    font-size: 25px;
+    text-indent: 10px;
+    line-height: 50px;
+    font-weight: bold;
+}
+span.value{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 220px;
+    height: inherit;
+    font-size: 25px;
+    text-indent: 10px;
+    line-height: 50px;
+    width: 220px;
+    background-color: rgb(215, 255, 162);
+}
+div.absolutevalueheading{
+    display: flex;
+    position: absolute;
+    top: 1350px;
+    left: 100px;
+    width: 500px;
+    height: 57px;
+    background-color: yellow;
+    font-size: 50px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.absolutevalue{
+    display: flex;
+    position: absolute;
+    top: 1410px;
+    left: 120px;
+    height: 70px;
+    width: 460px;
+    line-height: 30px;
+    background-color: greenyellow;
+    font-size: 20px;
+}
+div.avinput{
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    height: 15px;
+    width: 250px;
+    background-color: gray;
+    color: white;
+}
+div.avinputbtn{
+    display: flex;
+    position: absolute;
+    top: 2px;
+    left: 252px;
+    height: 17px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    font-size: small;
+    justify-content: center;
+}
+div.avuip{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 10px;
+    width: 380px;
+}
+div.avuipr{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    height: 10px;
+    width: 380px;
+}
+span#unfav{
+    color: rgb(179, 7, 7);
+    padding: 0px 5px 0px 5px ;
+}
+span#unfavr{
+    color: darkblue;
+    padding: 0px 5px 0px 5px;
+}
+div.randomdicevalueheading{
+    display: flex;
+    position: absolute;
+    top: 1485px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 45px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.randomdicevalue{
+    display: flex;
+    position: absolute;
+    top: 1545px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.input{
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    height: 30px;
+    width: 440px;
+    border: 1px solid black;
+}
+input{
+    height: inherit;
+    width: inherit;
+    background-color: inherit;  
+    border: none; 
+}
+div.dice{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 130px;
+    height: 180px;
+    width: 180px;
+    border: 1px solid black;
+    font-size: 200px;
+    line-height: 180px;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+    text-shadow: 5px 5px red;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+}
+div.generate{
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+    left: 120px;
+    height: 50px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 20px 20px 20px 20px ;
+    box-shadow: 4px 4px rgb(83, 206, 255);
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    line-height: 50px;
+    text-shadow: 2px 2px red;
+}
+div.tossheading{
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 70px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.toss{
+    display: flex;
+    position: absolute;
+    top: 1860px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.headtail{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    height: 180px;
+    width: 380px;
+    border: 1px solid black;
+    font-size: 145px;
+    line-height: 180px;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+    text-shadow: 5px 5px red;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    /* transition-delay: 2s; */
+}
+div.onetohundredheading{
+    display: flex;
+    position: absolute;
+    top: 2115px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.onetohundred{
+    display: flex;
+    position: absolute;
+    top: 2175px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.onetohundredbox{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    height: 180px;
+    width: 380px;
+    border: 1px solid black;
+    font-size: 170px;
+    line-height: 180px;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+    text-shadow: 5px 5px red;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+}
+div.onetohundredbox2{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 40px;
+    height: 180px;
+    width: 380px;
+    border: 1px solid black;
+    line-height: 40px;
+    justify-content: center;
+    background-color: black;
+    color: yellow;
+    text-shadow: 1px 1px red;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 20px;
+    text-indent: 5px;
+    font-size: 20px;
+}
+div.mainweight{
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    /* font-size: medium; */
+    color: black;
+    height: 35px;
+    width: 380px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+}
+div.pound{
+    display: flex;
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    height: 35px;
+    color: black;
+    width: 380px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+}
+div.gram{
+    display: flex;
+    position: absolute;
+    top: 95px;
+    left: 0px;
+    height: 35px;
+    width: 380px;
+    background-color: rgba(183, 197, 95, 0.342);
+    color: black;
+    box-shadow: 0px 0px 5px white;
+}
+div.miligram{
+    display: flex;
+    position: absolute;
+    color: black;
+    top: 135px;
+    left: 0px;
+    height: 35px;
+    width: 380px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+}
+div.userweightheading{
+    display: flex;
+    position: absolute;
+    top: 2430px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.usergetweight{
+    display: flex;
+    position: absolute;
+    top: 2490px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.userweightinput{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+input#userweight{
+    border: inherit;
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    color: black;
+}
+div.userweightbtn{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    height: 50px;
+    width: 120px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    line-height: 40px;
+    border: 2px solid black;
+    text-shadow: 3px 3px red;
+}
+div.gameheading{
+    display: flex;
+    position: absolute;
+    top: 2745px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.game{
+    display: flex;
+    position: absolute;
+    top: 2805px;
+    left: 120px;
+    height: 200px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.gameinput{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+div.gamebtn{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    height: 50px;
+    width: 120px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 40px;
+    border: 2px solid black;
+    text-shadow: 3px 3px red;
+}
+div.gameresult{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 2px;
+    height: 50px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 50px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.gamedata{
+    display: flex;
+    position: absolute;
+    /* color: white; */
+    top: 130px;
+    text-indent: 10px;
+    left: 2px;
+    line-height: 50px;
+    height: 50px;
+    width: 456px;
+    /* background-color: black; */
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px red
+}
+div.currentdateheading{
+    display: flex;
+    position: absolute;
+    top: 3010px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.currentdate{
+    display: flex;
+    position: absolute;
+    top: 3070px;
+    left: 120px;
+    height: 200px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.currentdatebrowse{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    height: 100px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 50px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.gettingdate{
+    display: flex;
+    position: absolute;
+    /* color: white; */
+    top: 130px;
+    text-indent: 10px;
+    left: 2px;
+    line-height: 50px;
+    height: 50px;
+    width: 456px;
+    /* background-color: black; */
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    font-size: 18px;
+    text-shadow: 2px 2px 2px red
+}
+div.currentdayheading{
+    display: flex;
+    position: absolute;
+    top: 3275px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.currentday{
+    display: flex;
+    position: absolute;
+    top: 3330px;
+    left: 120px;
+    height: 200px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.currentdaybrowse{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    height: 100px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 100px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.gettingday{
+    display: flex;
+    position: absolute;
+    /* color: white; */
+    top: 130px;
+    text-indent: 10px;
+    left: 2px;
+    line-height: 50px;
+    height: 50px;
+    width: 456px;
+    /* background-color: black; */
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    font-size: 17px;
+    text-shadow: 2px 2px 2px red
+}
+div.currentmonthheading{
+    display: flex;
+    position: absolute;
+    top: 3535px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.currentmonth{
+    display: flex;
+    position: absolute;
+    top: 3595px;
+    left: 120px;
+    height: 200px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.currentmonthbrowse{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 2px;
+    height: 100px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 100px;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.gettingmonth{
+    display: flex;
+    position: absolute;
+    /* color: white; */
+    top: 130px;
+    text-indent: 10px;
+    left: 2px;
+    line-height: 50px;
+    height: 50px;
+    width: 456px;
+    /* background-color: black; */
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px red
+}
+div.ageheading{
+    display: flex;
+    position: absolute;
+    top: 3800px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 40px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.age{
+    display: flex;
+    position: absolute;
+    top: 3860px;
+    left: 120px;
+    height: 250px;
+    width: 460px;
+    background-color: chartreuse;
+}
+div.ageinput{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px 0px 0px 20px;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+div.agebtn{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 320px;
+    height: 50px;
+    width: 120px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 40px;
+    border: 2px solid black;
+    text-shadow: 3px 3px red;
+}
+div.ageresult{
+    display: flex;
+    position: absolute;
+    top: 70px;
+    left: 2px;
+    height: 50px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 50px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.ageresult2{
+    display: flex;
+    position: absolute;
+    top: 130px;
+    left: 2px;
+    height: 50px;
+    width: 456px;
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    line-height: 50px;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px red;
+    text-indent: 10px;
+    /* background-color: black; */
+    /* color: white; */
+}
+div.agedata{
+    display: flex;
+    position: absolute;
+    /* color: white; */
+    top: 190px;
+    text-indent: 10px;
+    left: 2px;
+    line-height: 50px;
+    height: 50px;
+    width: 456px;
+    /* background-color: black; */
+    background-color: rgba(183, 197, 95, 0.342);
+    box-shadow: 0px 0px 5px white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px red
+}
+div.billheading{
+    display: flex;
+    position: absolute;
+    top: 4115px;
+    left: 100px;
+    height: 57px;
+    width: 500px;
+    background-color: yellow;
+    font-size: 30px;
+    line-height: 55px;
+    border-radius: 50px;
+    /* text-align: center; */
+    justify-content: center;
+    box-shadow: 3px 3px red;
+    text-shadow: 3px 3px white;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.bill{
+    display: flex;
+    position: absolute;
+    top: 4175px;
+    left: 120px;
+    height: 350px;
+    width: 460px;
+    background-color: chartreuse;
+    border-radius: 0px 0px 50px 50px;
+}
+div.billinput{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    height: 50px;
+    width: 420px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+div.unitinput{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    height: 50px;
+    width: 420px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: gray;
+    color: black;
+    border: 1px solid black;
+}
+div.billbtn{
+    display: flex;
+    position: absolute;
+    top: 115px;
+    left: 130px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 200px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(0, 225, 255);
+    color: rgb(202, 46, 46);
+    justify-content: center;
+    border: 1px solid rgb(0, 140, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+div.charges{
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    height: 50px;
+    width: 420px;
+    font-size: 23px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(250, 15, 15, 0.676);
+    color: black;
+    line-height: 50px;
+    justify-content: center;
+    border: 1px solid black;
+}
+div.billdata{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 240px;
+    left: 20px;
+    font-size: 25px;
+    justify-content: center;
+    height: 80px;
+    width: 420px;
+    line-height: 70px;
+    border-radius: 20px 20px 20px 20px;
+    background-color:  rgba(250, 15, 15, 0.676);;
+    color: black;
+    border: 1px solid black;
+}
+::-webkit-input-placeholder{
+    color: #ffffff;
+    font-family: monospace;
+    text-indent: 5px;
+}
+button{
+    background-color: inherit;
+    border: none;
+    font-weight: inherit;
+    border-radius: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+input{
+    border-radius: inherit;
+}
+
+
+
+

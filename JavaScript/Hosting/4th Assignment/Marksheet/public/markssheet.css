@@ -1,0 +1,947 @@
+
+div.markssheet{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(20vw);
+    height: calc(130vh);
+    width: calc(60vw);
+    border: 2px solid black;
+    /* background-color: lightblue; */
+    background-image: ;
+}
+div.watermark{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    height: calc(100vh);
+    /* height: calc(100vh); */
+    width: inherit;
+}
+img.watermark{
+    height: inherit;
+    width: inherit;
+    opacity: 0.2;
+}
+div.header{
+    display: flex;
+    position: absolute;
+    top: calc(1vh);
+    left: calc(3vw);
+    height: calc(4vh);
+    width: calc(54vw);
+    /* background-color: aqua; */
+    font-size: 140%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+div.pri{
+    display: flex;
+    position: absolute;
+    top: calc(7vh);
+    left: calc(17vw);
+    height: calc(4vh);
+    width: calc(26vw);
+    /* background-color: coral; */
+    font-size: 120%;
+    font-weight: bold;
+    text-decoration: underline;
+}
+div.imgusr{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    right: calc(5vw);
+    height: calc(10vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+img.usr{
+    height: inherit;
+    width: inherit;
+}
+div.studentinfo{
+    display: flex;
+    position: absolute;
+    top: calc(27vh);
+    left: calc(2vw);
+    height: calc(20vh);
+    width: calc(56vw);
+    /* border: 1px solid blue; */
+}
+div.rollno{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    /* background-color: lightgreen; */
+}
+div.first{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: inherit;
+    width: calc(10vw);
+    /* background-color: lightcoral; */
+    font-size: larger;
+    font-weight: bold;
+    /* font-family: monospace; */
+}
+div.second{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(11vw);
+    height: inherit;
+    width: calc(30vw);
+    /* background-color: lightcoral; */
+}
+div.name{
+    display: flex;
+    position: absolute;
+    top: calc(4vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    /* background-color: lightgreen; */
+}
+div.fathername{
+    display: flex;
+    position: absolute;
+    top: calc(8vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    /* background-color: lightgreen; */
+}
+div.dateofbirth{
+    display: flex;
+    position: absolute;
+    top: calc(12vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: inherit;
+    /* background-color: lightgreen; */
+}
+div.note{
+    display: flex;
+    position: absolute;
+    top: calc(16vh);
+    left: calc(0vw);
+    height: calc(4vh);
+    width: calc(50vw);
+    /* background-color: lightgreen; */
+    font-size: large;
+    line-height: 30px;
+    padding-left: 10px;
+}
+div.table{
+    display: flex;
+    position: absolute;
+    top: calc(50vh);
+    left: calc(2vw);
+    height: calc(58vh);
+    width: calc(56vw);
+    border: 1px solid black;
+}
+div.tbhd{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(10vh);
+    width: calc(56vw);
+    border: 1px solid black;
+    font-size: 120%;
+    text-align: center;
+}
+div.tbhdsr{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(10vh);
+    width: calc(3vw);
+    border: 1px solid black;
+    font-weight: bolder;
+    line-height: 60px;
+}
+div.tbhdnm{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(3vw);
+    height: calc(10vh);
+    width: calc(15vw);
+    border: 1px solid black;
+    font-size: 140%;
+    font-weight: bolder;
+    line-height: 60px;
+}
+div.tbhdmaxmark{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(18vw);
+    height: calc(10vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-weight: bolder;
+    line-height: 30px;
+}
+div.markobtained{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(25vw);
+    height: calc(10vh);
+    width: calc(12vw);
+    border: 1px solid black;
+    font-weight: bolder;
+    justify-content: center;
+    line-height: 30px;
+}
+div.mrkobt{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(12vw);
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    text-indent: 10px;
+    text-indent: 9px;
+}
+div.nineth{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border-right: 1px solid black;
+    text-indent: 18px;
+}
+div.tenth{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(6vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    /* border: 1px solid black; */
+    text-indent: 15px;
+}
+div.total{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(37vw);
+    height: calc(10vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 5px;
+}
+div.percentage{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(44vw);
+    height: calc(10vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    /* font-size: 10%; */
+    font-weight: bold;
+    line-height: 60px;
+    text-indent: 1px;
+}
+div.grade{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(51vw);
+    height: calc(10vh);
+    width: calc(5vw);
+    border: 1px solid black;
+    font-size: 110%;
+    font-weight: bold;
+    line-height: 60px;
+    text-indent: 5px;
+}
+div.srnolist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(40vh);
+    width: calc(3vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+}
+div.srno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.srno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(3vw);
+    border: 1px solid black;
+}
+div.subjectname{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(3vw);
+    height: calc(40vh);
+    width: calc(15vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+}
+div.sbno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.sbno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(15vw);
+    border: 1px solid black;
+}
+div.maxmarkslist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(18vw);
+    height: calc(40vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 30px;
+    text-indent: 30px;
+}div.maxmrkno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.maxmrkno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.ninethlist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(25vw);
+    height: calc(40vh);
+    width: calc(6vw);
+    border: 1px solid black;
+    font-size: 120%;
+    /* font-weight: bold; */
+    line-height: 33px;
+    text-indent: 25px;
+}
+div.tenthlist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(31vw);
+    height: calc(40vh);
+    width: calc(6vw);
+    border: 1px solid black;
+    font-size: 120%;
+    /* font-weight: bold; */
+    line-height: 33px;
+    text-indent: 25px;
+}
+div.nolistno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.nolistno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(6vw);
+    border: 1px solid black;
+}
+div.totalmarkslist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(37vw);
+    height: calc(40vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 31px;
+    text-indent: 35px;
+}
+div.tmlno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.tmlno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    border: 1px solid black;
+}
+div.totalpercentagelist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(44vw);
+    height: calc(40vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 30px;
+    text-indent: 20px;
+}
+div.gradelist{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(51vw);
+    height: calc(40vh);
+    width: calc(5vw);
+    border: 1px solid black;
+    font-size: 120%;
+    line-height: 30px;
+    text-indent: 15px;
+    font-weight: bold;
+}
+div.gradelistno1{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno2{
+    display: flex;
+    position: absolute;
+    top: calc(5vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno3{
+    display: flex;
+    position: absolute;
+    top: calc(10vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno4{
+    display: flex;
+    position: absolute;
+    top: calc(15vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno5{
+    display: flex;
+    position: absolute;
+    top: calc(20vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno6{
+    display: flex;
+    position: absolute;
+    top: calc(25vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno7{
+    display: flex;
+    position: absolute;
+    top: calc(30vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.gradelistno8{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(0vw);
+    height: calc(5vh);
+    width: calc(5vw);
+    border: 1px solid black;
+}
+div.result{
+    display: flex;
+    position: absolute;
+    top: calc(50vh);
+    left: calc(0vw);
+    height: calc(8vh);
+    width: calc(56vw);
+    border: 1px solid black;
+}
+div.totatlaveragegrd{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(0vw);
+    height: calc(8vh);
+    width: calc(18vw);
+    border: 1px solid black;
+    font-size: 130%;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 30px;
+}
+div.grandtotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(18vw);
+    height: calc(8vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 130%;
+    line-height: 50px;
+    text-indent: 25px;
+}
+div.ninetotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(25vw);
+    height: calc(8vh);
+    width: calc(6vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    text-indent: 25px;
+    line-height: 50px;
+}
+div.tentotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(31vw);
+    height: calc(8vh);
+    width: calc(6vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    text-indent: 25px;
+    line-height: 50px;
+}
+div.nettotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(37vw);
+    height: calc(8vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    text-indent: 30px;
+    line-height: 50px;
+}
+div.pertotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(44vw);
+    height: calc(8vh);
+    width: calc(7vw);
+    border: 1px solid black;
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 50px;
+    text-indent: 20px;
+}
+div.gradetotal{
+    display: flex;
+    position: absolute;
+    top: calc(0vh);
+    left: calc(51vw);
+    height: calc(8vh);
+    width: calc(5vw);
+    border: 1px solid black;
+    font-size: 120%;
+    line-height: 50px;
+    text-indent: 15px;
+    font-weight: bold;
+}
+div.note1{
+    display: flex;
+    position: absolute;
+    top: calc(115vh);
+    left: calc(2vw);
+    height: calc(15vh);
+    width: calc(56vw);
+    /* border: 1px solid black; */
+}
+div.notehd{
+    display: flex;
+    position: absolute;
+    top: calc(2vh);
+    left: calc(1vw);
+    height: calc(5vh);
+    width: calc(7vw);
+    /* border: 1px solid black; */
+    font-weight: bolder;
+    color: red;
+    font-size: 140%;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.noteline{
+    display: flex;
+    position: absolute;
+    top: calc(2.5vh);
+    left: calc(7.5vw);
+    height: calc(10vh);
+    width: calc(48vw);
+    /* border: 1px solid black; */
+    font-size: 100%;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}

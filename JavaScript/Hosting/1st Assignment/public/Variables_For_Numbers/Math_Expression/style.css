@@ -1,0 +1,14 @@
+div.heading{
+    display: flex;
+    position: absolute;
+    top: calc(35vh);
+    left: calc(10vw);
+    height: calc(30vh);
+    width: calc(80vw);
+    border: 5px solid black;
+    color: red;
+    background-color: pink;
+    text-shadow: 5px 5px blue;
+    font-size: 160px;
+    border-radius: 50px;
+}
