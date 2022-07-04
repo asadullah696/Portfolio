@@ -1,0 +1,51 @@
+
+table{
+    height: auto; width: auto; color: bisque; border: 1px; border-radius: 3mm; border-style:dotted;
+}            
+tr>td{
+    border: 1px; border-color: rgb(19, 12, 1); border-style: dashed;
+}
+h1{
+    background-color: magenta;
+}
+th.friday{
+      background-color: #036903; 
+}
+th.sunday{
+      background-color:#e73c07; 
+}
+table{
+    text-align:center ;
+    table-layout: auto;
+    background-color:rgb(108, 50, 243);
+}
+#month{
+    background: #000; font-size: xx-large;
+}
+#day{
+    font-size: x-large; background-color:rgb(255, 115, 0);
+}
+
+td.friday{
+    background-color: #036903;
+}
+td.sunday{
+    background-color: #e73c07;
+}
+div{
+    padding: 5px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: rgb(20, 50, 220);
+    border-style: ridge;
+    border-radius: 2mm; !important
+}
+div>div{
+    padding: 5px;
+    border: solid;
+    height: 225px;
+    width: 660px;
+    border-color: red;
+    border-radius: 5mm;
+}

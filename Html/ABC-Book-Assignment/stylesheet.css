@@ -1,0 +1,263 @@
+*{
+    text-align: center;
+    background-color: rgba(146, 250, 152, 0.541)
+}
+div{
+    display: inline;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 400%;
+    color: rgb(228, 253, 6);
+    font-weight: bolder;
+    display: inline;
+    background-color: gray;
+    border: 1px;
+    border-radius: 10px;
+    width: 150%;
+    height: 150%;
+    padding: 1%;
+}
+table.letter{
+    background-color: rgb(252, 42, 5); !important
+    border-radius: 2mm;
+    font-size: 300%;
+    color: rgb(253, 23, 7); !important
+    font-family: cursive;
+    margin-left: 15%;
+}
+a.heading{
+    text-decoration: none;
+    color: rgba(255, 21, 5, 0.938);
+}
+tr.alphabet{
+    background: #000;
+}
+th.abc{
+    background-color: rgb(222, 184, 135);
+    font-size: xx-large;
+    font-family: cursive;
+}
+th{
+    background-color: rgb(222, 184, 135);
+}
+td.abc{
+    font-size: 120%;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cyan;
+}
+table.a{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.b{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.c{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.d{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.e{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.f{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.g{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.h{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.i{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.j{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.k{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.l{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.m{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.n{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.o{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.p{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.q{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.r{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.s{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.t{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.u{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.v{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.w{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.x{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.y{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+table.z{
+    background-color: red;
+    padding: 8px;
+    border-radius: 2px;
+    margin-left: 23%;
+    width: 700px;
+}
+span.word{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+}
+figure{
+    display: inline;
+    width: 50%;
+}
+img{
+    display: inline;
+    width: 200px;
+    height: 150px;
+}
+td.img{
+    background-color: pink;
+}
+fieldset{
+    width300px
+}
+legend.review{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: bolder;
+}
+label.data{
+    color: brown;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}

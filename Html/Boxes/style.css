@@ -1,0 +1,445 @@
+div.main{
+    height: 600px;
+    width: 1000px;
+    background-color: lightgoldenrodyellow;
+    margin-left: 155px;
+    display: inline-block; !important
+}
+div.navigation{
+    height: 80px;
+    width: 99%;
+    background-color: black;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+div.menu{
+    height: 100%;
+    width: 115px;
+    background-color: transparent;
+    display: inline-block;
+    background-color: transparent;
+}
+
+div.searchbar{
+    height: 100%;
+    width: 352px;
+    background-color:transparent;
+    display: inline-block;
+    float: right;
+}
+div.logoimg{
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    background-color: transparent;
+}
+img.logo{
+    width: 100%;
+    height: 72%;
+    margin: 10px auto 10px auto;
+    border-radius: 15px;
+    float: left;
+    background-color: transparent;
+}
+div.header{
+    height: 100%;
+    width: 115px;
+    background-color: transparent;
+    display: inline-block;
+}
+div.imgheader{
+    display: inline-block;
+    width: 160px;
+    height: 100%;
+    background-color: red;
+}
+span.header{
+    display: inline-block;
+    margin-bottom: 50px;
+    line-height: 15px;
+    padding-left: 5px;
+    font-size: 140%;
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 37px;
+    float: left;
+}
+span.menu{
+    display: inline-block;
+    line-height: 25px;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    padding-bottom: 10px;
+    
+}
+select.menu{
+    display: inline-block;
+    font-size: 50%;
+    color: rgb(255, 255, 255);
+    height: 10%;
+    border-color: aliceblue;
+    background-color: transparent;
+}
+select.news{
+    background-color: transparent;
+    color: red;
+    border: none;
+}
+span.us{
+    font-size: larger;
+    font-weight: bolder;
+}
+span.news{
+    font-size: larger;
+    font-weight: bolder;
+    line-height: 29.5px;
+}
+button.register{
+    
+    display: inline;
+    width: 60px;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+}
+table{
+    display: inline-block;
+    height: 50px;
+    width: 310px;
+    float: right;
+    
+}
+img.social{
+    width: 30px;
+    height: 100%;
+}
+span.search{
+    float: right; 
+}
+input.search{
+    width: 250px;
+    height: 20px;
+}
+td.social{
+    background-color: transparent;
+    border: 2px;
+    border-radius: 4px;
+}
+select.more{
+    color: transparent;
+}
+div.heading{
+    width: 95%;
+    height: 60px;
+    margin-left: 25px;
+    background-color: transparent;
+    font-size: 300%;
+    text-indent: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    border-bottom-style: solid;
+    border-color: gray;
+}
+div.relativetopic{
+    display: inline-block;
+    height: 20px;
+    width: 90%;
+    margin-left: 25px;
+    background-color: transparent;
+}
+ul.relativetopic{
+    display: inline;
+    height: 90%;
+
+}
+li.relativetopic{
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: bold;
+    color: blue;
+}
+li.heading{
+    display: inline-block;
+    color: gray;
+    font-size: 80%;
+    width: ;
+}
+select.relativetopic{
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    color: blue;
+}
+div.roc{
+    display: inline-block;
+    width: 600px;
+    height: 100px;
+    background-color: transparent;
+    margin-left: 25px;
+    float: left;
+}
+div.h{
+    display: inline-block;
+    width: 600px;
+    background-color: transparent;
+    height: 10px;
+    font-size: 70%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+div.mainchange{
+    display: inline-block;
+    width: 120px;
+    height: 65px;
+    line-height: 70PX;
+    background-color: transparent;
+    text-align: center;
+    font-weight: BOLD;
+    color: red;
+    font-size: 140%;
+}
+select.mainchange{
+    background-color: transparent;
+}
+div.change{
+    display: inline-block;
+    width: 80px;
+    height: 65px;
+    background: transparent;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    line-height: 20px;
+    font-size: 120%;
+}
+span.change{
+    display: inline-block;
+    height: 50%;
+    line-height: 20px;
+}
+div.value{
+    display: inline-block;
+    width: 95px;
+    height: 63px;
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+
+}
+div.date{
+    display: inline-block;
+    width: 95px;
+    height: 63px;
+    background-color: transparent;
+}
+input.time{
+    width: 60%;
+    height: 40%;
+}
+div.note{
+    display: inline-block;
+    height: 15px;
+    width: 600px;
+    background-color: transparent;
+    color: rgb(54, 54, 54);
+    font-size: 80%;
+    word-spacing: 5px;
+    font-weight: bold;
+}div.market{
+    display: inline-block;
+    width: 350px;
+    height:425px;
+    background-color: lightblue;
+    float: right;
+    margin-right: 25px;
+}
+div.mh{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(142, 227, 255);
+}
+span.mh{
+    display: inline-block;
+    background: transparent;
+    font-size:200%;
+    font-weight: bolder;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 5px;
+}
+span.country{
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    background-color: transparent;
+    line-height: 20px;
+    word-spacing: 5px;
+}
+button.country{
+    padding-top: 5px;
+    border-bottom: none;
+    font-size: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: none;
+}
+div.supponser{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+button.supponser{
+    background-color: red;
+    color: whitesmoke;
+    font-size: 100%;
+    border-radius: 7px;
+}
+span.mi{
+    float: left;
+    color: rgb(0, 0, 0);
+}
+span.indicate{
+    float: right;
+    color: rgb(9, 185, 255);
+}
+div.msearch{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+th.company{
+    color: blue;
+    font-weight: bold;
+    padding-right: 20px;
+}
+table.company{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: ;
+}
+td.company{
+    color: red;
+    font-weight: bold;
+    padding-left: 20px;
+}
+div.currency{
+    display: inline-block;
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;        }
+span.currency{
+    font-weight: bold;
+}
+span.allcurrency{
+    color: darkblue;
+}
+select.currency{
+    border: none;
+    color: darkblue;
+    background-color: transparent;
+}
+td.red{
+    font-weight: bold;
+    color: green;
+    padding-left: 20px;
+}
+div.ccc{
+    display: inline-block;
+    width: 100%;
+    height: 240px;
+    background-color: transparent;
+    padding-top: 50px;
+}
+div.future{
+    display: inline-block;
+    width: 600px;
+    height: 180px;
+    background-color: transparent;
+    margin-left: 25px;
+}
+table.future{
+    float: left;
+    width: 580px;
+}
+th.future{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-bottom: 1px;
+    border-color: gray;
+    border-bottom-style: solid;
+    width: 100px;
+}
+td.future{
+    word-spacing: 10px;
+    border-bottom: 1px;
+    border-color: gray;
+    border-bottom-style: solid;
+    width: 500px;
+    color: blue;
+}
+th.cf{
+    word-spacing: none;
+    padding-right: 370px;
+
+}
+div.index{
+    display: inline-block;
+    height: 145px;
+    width: 600px;
+    background-color: transparent;
+    margin-bottom: 80px;
+    margin-left: 25px;
+}
+h5.ih{
+   display: inline;
+}
+p{
+   display: inline-block;
+}
+div.incc{
+   display: inline-block;
+   width: 600px;
+   height: 80px;
+   background: transparent;
+   margin-left: 25px;
+   
+}
+table.incc{
+   display: inline-block;
+   float: left;
+   height: 75px;
+   line-height: 10px;
+}
+th.incc{
+   font-size: 70%;
+   color: blue;
+   word-spacing: 5px;
+   margin-left: 20px;
+}
+td.incc{
+   font-size: 50%;
+   word-spacing: 5px;
+   margin-left: 40px;
+   color:black;
+   padding-left: 20px;
+   font-weight: bold;
+}
+th.ccl{
+   font-size: 70%;
+   color: blue;
+   word-spacing: 5px;
+   margin-left: 20px;
+   border-bottom: 1px;
+   border-bottom-style: solid;
+   border-color: darkgray;
+}
